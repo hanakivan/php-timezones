@@ -1,0 +1,22 @@
+{
+    "name": "hanakivan/timezones",
+    "description": "A simple php helper to help work with timezone offsets.",
+    "license" : "MIT",
+    "type" : "package",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Ivan Hanak",
+            "email": "packagist@ivanhanak.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "hanakivan\\Timezones\\": "src/"
+        }
+    },
+    "require": {
+        "ext-mbstring": "*"
+    }
+}
